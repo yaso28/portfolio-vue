@@ -3,6 +3,10 @@
 
 ※上の方が新しいものです。
 
+- Vuetifyをインストール
+  - vue add vuetify
+    - preset: Default(recommenede)
+
 - Vue 2 をインストール
   - vue create portfolio
     - Choose Vue version
