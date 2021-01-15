@@ -3,6 +3,16 @@
 
 ※上の方が新しいものです。
 
+- lint設定
+  - .eslintrc.jsを編集
+    - 'plugin:vue/recommended'ルールを設定
+    - 動作に影響しないルールはwarningに留める
+  - CSSのlintライブラリをインストール＆設定
+    - npm install -D stylelint stylelint-config-standard stylelint-order stylelint-scss
+    - .stylelintrc.jsを手動で追加
+    - package.jsonを編集
+      - lint:cssコマンドを追加
+
 - Vuetifyをインストール
   - vue add vuetify
     - preset: Default(recommenede)
