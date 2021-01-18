@@ -3,6 +3,9 @@
 
 ※上の方が新しいものです。
 
+- Skillsページを実装
+  - src/views/Skills.vueを編集
+
 - フッターを作成
   - src/App.vueを編集
 
@@ -14,6 +17,7 @@
     - src/consts/index.jsを追加
   - 各ページの雛形を作成
     - src/views/[Home,About].vueを編集
+    - src/views/[Skills,Works].vueを追加
     - src/router/index.jsを編集
     - public/index.htmlを編集
   - ヘッダーを作成
