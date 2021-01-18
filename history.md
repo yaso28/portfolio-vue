@@ -3,6 +3,9 @@
 
 ※上の方が新しいものです。
 
+- フッターを作成
+  - src/App.vueを編集
+
 - ヘッダーおよび各ページの雛形を作成
   - vue-metaをインストール
     - npm install vue-meta

@@ -52,6 +52,33 @@
         <router-view />
       </v-container>
     </v-main>
+
+    <v-footer
+      app
+      padless
+    >
+      <v-card
+        tile
+        width="100%"
+        color="transparent"
+        class="text-center"
+      >
+        <v-btn
+          v-for="linkItem in linkItemList"
+          :key="linkItem.icon"
+          class="mx-4"
+          icon
+          :href="linkItem.href"
+          :target="linkItem.target"
+        >
+          <v-icon
+            dense
+          >
+            {{ linkItem.icon }}
+          </v-icon>
+        </v-btn>
+      </v-card>
+    </v-footer>
   </v-app>
 </template>
 
@@ -66,6 +93,12 @@ export default {
   computed: {
     menuItemList () {
       return ['HOME', 'ABOUT', 'SKILLS', 'WORKS']
+    },
+    linkItemList () {
+      return [
+        { icon: 'mdi-github', href: 'https://github.com/yaso28', target: '_blank' },
+        { icon: 'mdi-email', href: 'mailto:yaso28@dummy.com', target: '_self' }
+      ]
     }
   }
 }
