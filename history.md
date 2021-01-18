@@ -3,6 +3,22 @@
 
 ※上の方が新しいものです。
 
+- ヘッダーおよび各ページの雛形を作成
+  - vue-metaをインストール
+    - npm install vue-meta
+    - src/main.jsを編集
+  - サイト名を定数定義に追加
+    - src/consts/index.jsを追加
+  - 各ページの雛形を作成
+    - src/views/[Home,About].vueを編集
+    - src/router/index.jsを編集
+    - public/index.htmlを編集
+  - ヘッダーを作成
+    - src/App.vueを編集
+  - 不要なファイルを削除
+    - src/components/HelloWorld.vueを削除
+    - src/components/.gitkeepを追加
+
 - lint設定
   - .eslintrc.jsを編集
     - 'plugin:vue/recommended'ルールを設定

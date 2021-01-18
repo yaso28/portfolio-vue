@@ -8,10 +8,10 @@
 import consts from '@/consts'
 
 export default {
-  name: 'About',
+  name: 'Skills',
   computed: {
     title () {
-      return 'ABOUT'
+      return 'SKILLS'
     }
   },
   metaInfo () {
@@ -21,7 +21,7 @@ export default {
         {
           vmid: 'description',
           name: 'description',
-          content: 'Web系エンジニアyaso28の自己紹介を掲載しています。'
+          content: 'Web系エンジニアyaso28のテクニカルスキルをまとめています。'
         }
       ]
     }
