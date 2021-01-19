@@ -3,6 +3,9 @@
 
 ※上の方が新しいものです。
 
+- Worksページを実装
+  - src/views/Works.vueを編集
+
 - Skillsページを実装
   - src/views/Skills.vueを編集
 
