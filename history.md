@@ -3,6 +3,12 @@
 
 ※上の方が新しいものです。
 
+- Homeページを実装
+  - src/views/Home.vueを編集
+  - 画像ファイル
+    - src/assets/logo.[png,svg]を削除
+    - src/assets/yaso28.pngを追加
+
 - タイトルおよびSEOデータを修正
   - 共通データ
     - src/consts/index.jsを編集
