@@ -16,7 +16,7 @@ export default {
         {
           vmid: 'description',
           name: 'description',
-          content: 'Web系エンジニアyaso28のポートフォリオサイトです。'
+          content: `${consts.me}のポートフォリオサイトです。`
         }
       ]
     }

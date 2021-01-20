@@ -127,7 +127,7 @@ export default {
         {
           vmid: 'description',
           name: 'description',
-          content: 'Web系エンジニアyaso28のテクニカルスキルをまとめています。'
+          content: `${consts.me}のテクニカルスキルをまとめています。`
         }
       ]
     }

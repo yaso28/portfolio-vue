@@ -3,6 +3,17 @@
 
 ※上の方が新しいものです。
 
+- タイトルおよびSEOデータを修正
+  - 共通データ
+    - src/consts/index.jsを編集
+  - タイトル
+    - src/App.vueを編集
+    - public/index.htmlを編集
+  - meta-description
+    - src/views/[Home,Skills,Works].vueを編集
+  - favicon
+    - public/favicon.icoを差し替え
+
 - Worksページを実装
   - src/views/Works.vueを編集
 

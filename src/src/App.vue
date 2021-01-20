@@ -8,7 +8,7 @@
         @click="drawer = true"
       />
       <v-toolbar-title class="my-title">
-        yaso28 - Web系エンジニア
+        {{ siteName }}
       </v-toolbar-title>
       <v-tabs
         right
@@ -83,6 +83,8 @@
 </template>
 
 <script>
+import consts from '@/consts'
+
 export default {
   name: 'App',
   data () {
@@ -91,6 +93,9 @@ export default {
     }
   },
   computed: {
+    siteName () {
+      return consts.site_name
+    },
     menuItemList () {
       return ['HOME', 'ABOUT', 'SKILLS', 'WORKS']
     },
