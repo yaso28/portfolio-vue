@@ -97,7 +97,7 @@ export default {
       return consts.site_name
     },
     menuItemList () {
-      return ['HOME', 'ABOUT', 'SKILLS', 'WORKS']
+      return ['HOME', 'SKILLS', 'WORKS']
     },
     linkItemList () {
       return [

@@ -3,6 +3,11 @@
 
 ※上の方が新しいものです。
 
+- Aboutページを削除
+  - src/App.vueを編集
+  - src/router/index.jsを編集
+  - src/views/About.vueを削除
+
 - Homeページを実装
   - src/views/Home.vueを編集
   - 画像ファイル
