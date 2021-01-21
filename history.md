@@ -3,6 +3,10 @@
 
 ※上の方が新しいものです。
 
+- サイトタイトルをレスポンシブ対応
+  - src/App.vueを編集
+  - src/assets/title.svgを追加
+
 - Aboutページを削除
   - src/App.vueを編集
   - src/router/index.jsを編集

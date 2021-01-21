@@ -7,8 +7,12 @@
         class="d-md-none"
         @click="drawer = true"
       />
-      <v-toolbar-title class="my-title">
-        {{ siteName }}
+      <v-toolbar-title :style="titleStyle">
+        <v-img
+          src="@/assets/title.svg"
+          alt="yaso28 フリーランスプログラマー"
+          position="left"
+        />
       </v-toolbar-title>
       <v-tabs
         right
@@ -83,8 +87,6 @@
 </template>
 
 <script>
-import consts from '@/consts'
-
 export default {
   name: 'App',
   data () {
@@ -93,8 +95,10 @@ export default {
     }
   },
   computed: {
-    siteName () {
-      return consts.site_name
+    titleStyle () {
+      return {
+        overflow: this.$vuetify.breakpoint.mdAndUp ? 'visible' : 'hidden'
+      }
     },
     menuItemList () {
       return ['HOME', 'SKILLS', 'WORKS']
@@ -108,9 +112,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-.v-toolbar__title.my-title {
-  overflow: visible;
-}
-</style>
