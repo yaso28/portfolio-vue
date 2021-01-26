@@ -31,8 +31,8 @@
 
     <v-navigation-drawer
       v-model="drawer"
-      fixed
-      temporary
+      app
+      :width="drawerWidth"
     >
       <v-list
         nav
@@ -99,6 +99,9 @@ export default {
       return {
         overflow: this.$vuetify.breakpoint.mdAndUp ? 'visible' : 'hidden'
       }
+    },
+    drawerWidth () {
+      return this.$vuetify.breakpoint.smAndUp ? '256px' : '40%'
     },
     menuItemList () {
       return ['HOME', 'SKILLS', 'WORKS']
