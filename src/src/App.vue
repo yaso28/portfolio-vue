@@ -32,6 +32,7 @@
     <v-navigation-drawer
       v-model="drawer"
       app
+      temporary
       :width="drawerWidth"
     >
       <v-list
