@@ -3,6 +3,11 @@
 
 ※上の方が新しいものです。
 
+- メールアドレスとデモサイトURLを環境変数で管理
+  - .env.exampleを追加
+  - src/App.vueを編集
+  - src/views/Works.vueを編集
+
 - サイトタイトルをレスポンシブ対応
   - src/App.vueを編集
   - src/assets/title.svgを追加

@@ -56,7 +56,7 @@ export default {
           title: '練習会場予約・予定公開システム',
           skills: 'Vue + Laravel',
           links: [
-            { name: 'デモサイト', href: 'https://www.yahoo.co.jp' },
+            { name: 'デモサイト', href: process.env.VUE_APP_DEMO_URL_SCHEDULE_RESERVATION },
             { name: 'ソースコード（フロントエンド）', href: 'https://github.com/yaso28/schedule-reservation-frontend' },
             { name: 'ソースコード（バックエンド）', href: 'https://github.com/yaso28/schedule-reservation-backend' }
           ],

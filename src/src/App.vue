@@ -108,10 +108,13 @@ export default {
       return ['HOME', 'SKILLS', 'WORKS']
     },
     linkItemList () {
-      return [
-        { icon: 'mdi-github', href: 'https://github.com/yaso28', target: '_blank' },
-        { icon: 'mdi-email', href: 'mailto:yaso28@dummy.com', target: '_self' }
-      ]
+      const list = []
+      list.push({ icon: 'mdi-github', href: 'https://github.com/yaso28', target: '_blank' })
+      const email = process.env.VUE_APP_EMAIL
+      if (email) {
+        list.push({ icon: 'mdi-email', href: `mailto:${email}`, target: '_self' })
+      }
+      return list
     }
   }
 }
