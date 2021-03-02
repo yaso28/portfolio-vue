@@ -79,7 +79,7 @@ export default {
             { name: 'Laravel', rate: 3 },
             { name: 'concrete5', rate: 1 }
           ],
-          comment: '現時点ではC#とPHPが得意ですが、他の言語も必要に応じて習得していきます。'
+          comment: 'C#とPHPが得意です。他の言語も必要に応じて習得していきます。'
         },
         {
           title: 'Frontend',
