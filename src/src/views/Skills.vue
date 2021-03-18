@@ -71,15 +71,15 @@ export default {
         {
           title: 'Backend',
           items: [
-            { name: 'C#', rate: 3 },
-            { name: 'ASP.NET Core', rate: 3 },
-            { name: '__BEGIN_PHP__' },
             { name: 'PHP', rate: 3 },
             { name: 'CakePHP', rate: 2 },
             { name: 'Laravel', rate: 3 },
-            { name: 'concrete5', rate: 1 }
+            { name: 'WordPress', rate: 1 },
+            { name: '__BEGIN_CSHARPPHP__' },
+            { name: 'C#', rate: 3 },
+            { name: 'ASP.NET Core', rate: 3 }
           ],
-          comment: 'C#とPHPが得意です。他の言語も必要に応じて習得していきます。'
+          comment: 'PHPとC#が得意です。他の言語も必要に応じて習得していきます。'
         },
         {
           title: 'Frontend',
